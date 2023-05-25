@@ -251,8 +251,6 @@ int deleteLeafNode(Node* head, int key)
 			ptr = ptr->right;
 		else
 			ptr = ptr->left;
-
-
 	}
 
 	printf("Cannot find the node for key [%d]\n ", key);
